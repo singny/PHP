@@ -1,5 +1,5 @@
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', 'tldms4658');
+$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', '');
 $stmt = $dbh->prepare('SELECT * FROM topic');
 $stmt->execute();
 $list = $stmt->fetchAll();
