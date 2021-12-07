@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', 'tldms4658', 'opentutorials');
+$conn = mysqli_connect('localhost', 'root', '', 'opentutorials');
 ?>
 <!DOCTYPE html>
 <html>
