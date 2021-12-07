@@ -1,5 +1,5 @@
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', '비밀번호', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 switch($_GET['mode']){
     case 'insert':
         $stmt = $dbh->prepare("INSERT INTO topic (title, description, created) VALUES (:title, :description, now())");
