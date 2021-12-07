@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', 'tldms4658', 'opentutorials');
+$conn = mysqli_connect('localhost', 'root', '비밀번호', 'opentutorials');
 
 $sql = "SELECT * FROM topic";
 $result = mysqli_query($conn,$sql);
