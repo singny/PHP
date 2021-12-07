@@ -2,7 +2,7 @@
 $conn = mysqli_connect(
   'localhost',
   'root',
-  'tldms4658',
+  '비밀번호',
   'opentutorials');
 
 settype($_POST['id'], 'integer');
