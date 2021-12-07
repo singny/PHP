@@ -2,7 +2,7 @@
 $conn = mysqli_connect(
   'localhost',
   'root',
-  'tldms4658',
+  '비밀번호',
   'opentutorials');
 $filtered = array(
   'name'=>mysqli_real_escape_string($conn, $_POST['name']),
