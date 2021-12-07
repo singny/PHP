@@ -1,5 +1,5 @@
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', '');
+$dbh = new PDO('mysql:host=localhost;dbname=opentutorials', 'root', '비밀번호');
 $stmt = $dbh->prepare('SELECT * FROM topic WHERE id = :id');
 $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 $id = $_GET['id'];
